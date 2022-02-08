@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(216, 223, 238);
+    color: rgb(14,52,75);
+    
+
+}
+#logo{
+     width: 140px;
+     padding: 5px;
+    
+}
+#logoImage{
+    max-height: 100%;  
+    max-width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2px rgba(61, 61, 61, 0.329);
+}
+a{
+    text-decoration: none;
+    color: rgb(14,52,75);
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    width: 500px;
+    text-align: center;
+
+
+ 
+
+}
+li{
+
+    padding: 5px 20px ;
+  
+
+}
