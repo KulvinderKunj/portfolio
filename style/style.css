@@ -1,3 +1,36 @@
+#home {
+  height: 500px;
+  width: 100%;
+}
 
-
-
+#name {
+   padding-top: 180px;
+  width: 800px;
+  text-align: center;
+}
+#name span {
+  color: rgb(100, 150, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+}
+#name h1 {
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+}
+#name p {
+  font-size: 20px;
+}
+#name a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: rgba(100, 150, 25, 0.74);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(58, 58, 58);
+}
+#name a:hover {
+  background-color: rgba(72, 109, 18, 0.74);
+}
+section {
+  height: 3000px;
+}
