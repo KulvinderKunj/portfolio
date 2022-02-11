@@ -4,6 +4,7 @@
 #home {
   height: 600px;
   width: 100%;
+  background-color: rgb(216, 223, 238);
 }
 /* name area div  */
 #name {
@@ -47,20 +48,22 @@ color: rgb(14, 52, 75);
 /* our services section start  */
 
 #servicesCont{
-  padding-top: 25px;
-  display: inline-block;
+  padding: 35px;
+  box-sizing: border-box;
   width: 100%;
   text-align: center;
-color: rgb(216, 223, 238);
+  color: rgb(216, 223, 238); 
+  background-color: rgb(14, 52, 75);
+
 }
 #services{
   display: flex;
   list-style: none;
   width: 90%;
   justify-content: space-evenly;
-  margin: auto;
-   margin-bottom: 40px; 
-
+margin: 40px;
+  padding: 0;
+   
 }
 .service img {
   height:200px;

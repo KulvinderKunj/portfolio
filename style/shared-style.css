@@ -1,22 +1,26 @@
 /* complete Document */
-* {
-  margin: 0;
-  padding: 0;
-}
+
 /* body */
 body {
+  margin: 0;
   font-family: "Quicksand", sans-serif;
-  background-color: rgb(216, 223, 238);
   color: rgb(14, 52, 75);
+
+
+
 }
 /* header section  */
 #header {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
 align-items: center;
 justify-content: space-between;
 position: fixed  ;
-background-color: rgb(216, 223, 238); 
+ background-color: rgb(216, 223, 238);  
 }
 /* logo div  */
 #logo {
