@@ -1,43 +1,47 @@
+/* complete Document */
 * {
   margin: 0;
   padding: 0;
 }
+/* body */
 body {
   font-family: "Quicksand", sans-serif;
   background-color: rgb(216, 223, 238);
   color: rgb(14, 52, 75);
 }
+/* header section  */
+#header {
+  width: 100%;
+  display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed  ;
+background-color: rgb(216, 223, 238); 
+}
+/* logo div  */
 #logo {
   width: 130px;
   padding: 5px;
 }
+/* logo image  */
 #logoImage {
   max-height: 100%;
   max-width: 100%;
   padding: 10px 20px;
 }
-#header {
-    width: 100%;
-    display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed  ;
-  background-color: rgb(216, 223, 238); 
-}
-a {
-  text-decoration: none;
-  color: rgb(14, 52, 75);
-}
-ul {
+#header ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  width: 500px;
+  width: 600px;
   text-align: center;
 }
-li {
-  padding: 5px 20px;
+#header a {
+  text-decoration: none;
+  color: rgb(14, 52, 75);
 }
-li a:hover {
+#header li a:hover {
   color: rgb(100, 150, 25);
 }
+
+/* Header End  */
