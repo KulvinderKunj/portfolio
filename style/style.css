@@ -1,33 +1,28 @@
-/* home section start  */
 
-/* home div  */
 #home {
-  height: 600px;
-  width: 100%;
+  height: 100vh;
   background-color: rgb(216, 223, 238);
+  display: flex;
+  align-items: center;
+
 }
-/* name area div  */
 #name {
-   padding-top: 180px;
   width: 800px;
   text-align: center;
 }
-/* i am section */
+
 #name span {
   color: rgb(100, 150, 25);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100px;
 }
-/* name (Kulvinder Singh )  */
 #name h1 {
   font-size: 60px;
   font-family: "Raleway", sans-serif;
 }
-/* profession  */
 #name p {
   font-size: 20px;
 }
-/* hire me  */
 #name a {
   display: inline-block;
   margin-top: 20px;
@@ -39,35 +34,28 @@ text-decoration: none;
 color: rgb(14, 52, 75);
 }
 
-/* hire me Hover  */
 #name a:hover {
   background-color: rgba(72, 109, 18, 0.74);
 }
-/* home section end  */
-
-/* our services section start  */
 
 #servicesCont{
-  padding: 35px;
   box-sizing: border-box;
   width: 100%;
   text-align: center;
   color: rgb(216, 223, 238); 
-  background-color: rgb(14, 52, 75);
-
+  background: linear-gradient(0deg,rgb(14, 52, 75),rgb(28, 62, 83));
+padding: 10px;
 }
 #services{
   display: flex;
   list-style: none;
   width: 90%;
   justify-content: space-evenly;
-margin: 40px;
-  padding: 0;
-   
+   margin: auto;
 }
 .service img {
   height:200px;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 2px 4px 8px rgb(68,67,67);
 object-fit: cover;

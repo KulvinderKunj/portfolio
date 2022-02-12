@@ -1,37 +1,32 @@
-/* complete Document */
 
-/* body */
-body {
-  margin: 0;
-  font-family: "Quicksand", sans-serif;
-  color: rgb(14, 52, 75);
-
-
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-/* header section  */
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
 #header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  box-sizing: border-box;
+  height: 75px;
   display: flex;
 align-items: center;
 justify-content: space-between;
-position: fixed  ;
  background-color: rgb(216, 223, 238);  
 }
-/* logo div  */
 #logo {
   width: 130px;
-  padding: 5px;
+  height: 100%;
 }
-/* logo image  */
 #logoImage {
   max-height: 100%;
   max-width: 100%;
-  padding: 10px 20px;
+  padding: 10px 0 10px 20px;
 }
 #header ul {
   display: flex;
@@ -46,6 +41,29 @@ position: fixed  ;
 }
 #header li a:hover {
   color: rgb(100, 150, 25);
+  
 }
 
-/* Header End  */
+
+
+/* Footer Start*/
+footer{
+  background: linear-gradient(75deg,rgb(24,24,24),rgb(25,29,29));
+}
+#Socials{
+  width: 400px;
+  display: flex;
+  list-style: none;
+  justify-content:space-evenly ;
+  padding: 20px 20px 0px 20px;
+  margin: auto;
+  
+}
+footer p{
+text-align: center;
+color: aliceblue;
+padding-bottom: 20px;
+margin: 0;
+margin-top: 10px;
+}
+
