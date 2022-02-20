@@ -1,11 +1,155 @@
 
-#home {
-  height: 100vh;
-  background-color: rgb(216, 223, 238);
-  display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+
+  --primary-color:#f73838;
+  --title-text-color:hsl(0, 8%, 15%);
+  --text-color:hsl(0, 8%, 45%);
+  --text-color-lighter:hsl(0, 8%, 65%);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  }
+  a{
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  body {
+    padding: 4.5rem 2rem 0 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .938;
+    color: var(--text-color);
+    background-color: #ffffff;
+  }
+
+  #header {
+   padding-left: 2rem;
+   padding-right: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+  }
+  #header li{
+    padding: 0 13px;
+  }
+  #header a {
+    text-decoration: none;
+    color: var(--title-text-color);
+  }
+   i {
+    color: var(--title-text-color);
+
+  }
+  #social li{
+    padding: .5rem 0;
+  }
+  #social i {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+     
+    
+  }
+  i:hover {
+    color: var(--primary-color);
+  }
+  #header li a:hover {
+     color: var(--primary-color);
+    
+  }
+
+
+
+  .section{
+    padding: 2rem 0 4rem;
+  }
+  
+ #home {
+  /* border: 1px solid rebeccapurple; */
+  display: grid;
+  grid-template-columns: 1fr 6fr;
   align-items: center;
 
 }
+
+#social ul{
+  height: 100%;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+  
+}
+#myInfo{
+  padding: 1rem;
+  margin: 1rem;
+  /* background-color: aqua; */
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+#myInfo h1{
+margin: 1rem  0 0 0;
+color: var(--title-text-color);
+font-size: 2.5rem;
+}
+#slogan{
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+#homeAbout{
+  margin-bottom: 1rem;
+}
+#myInfo a{
+  display: inline-block;
+  padding: 1rem;
+  margin:   1rem 0 ;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px var(--text-color);
+}
+#contact , .uil-message{
+  font-weight: bold;
+  color: #ffffff;
+}
+#image{
+text-align: center;
+/* border: 1px solid rebeccapurple; */
+}
+#image img{
+  /* border: 1px solid rebeccapurple; */
+  max-width: 100%;
+}
+#name{
+  /* border: 1px solid rebeccapurple; */
+}
+/*
 #name {
   width: 800px;
   text-align: center;
@@ -71,3 +215,24 @@ object-fit: cover;
   text-transform: uppercase;
 }
 
+
+footer{
+  background: linear-gradient(75deg,rgb(24,24,24),rgb(25,29,29));
+}
+#Socials{
+  width: 400px;
+  display: flex;
+  list-style: none;
+  justify-content:space-evenly ;
+  padding: 20px 20px 0px 20px;
+  margin: auto;
+  
+}
+footer p{
+text-align: center;
+color: aliceblue;
+padding-bottom: 20px;
+margin: 0;
+margin-top: 10px;
+}
+ */
